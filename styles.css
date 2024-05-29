@@ -1,0 +1,37 @@
+body {
+    font-family:"Times New Roman", Times, serif;
+    margin:0;
+    padding:0;
+}
+header {
+    background-color: #1a007999;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+main {
+    padding: 20px;
+}
+#home img {
+    height: 4in; /* Set the desired height */
+    width: auto; /* Maintain the aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+footer {
+    background-color: #1a007999;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
